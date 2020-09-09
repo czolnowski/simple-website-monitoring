@@ -1,0 +1,28 @@
+{
+  "name": "simple-website-monitoring",
+  "version": "1.0.0",
+  "description": "Simple website monitoring",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "prettier": "prettier src README.md --write"
+  },
+  "author": "Marcin Czołnowski <marcin.czolnowski@dka.io>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "config-yml": "^0.10.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.1"
+  }
+}

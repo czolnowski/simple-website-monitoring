@@ -1,0 +1,8 @@
+websites:
+  - url: https://dka.io
+    name: DKA
+    interval: 1000
+    expectedStatus: 200
+    bodyShouldContains:
+      - Dunning, Kruger &amp; Associates is a digital design and engineering consultancy driven by people and culture.
+    responseTimeLowerThan: 1000
